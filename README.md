@@ -1,3 +1,35 @@
+# Computational Methods of Algebra
+
+This repository contains implementations of fundamental numerical linear algebra methods used for solving systems of linear algebraic equations and the eigenvalue problem (EVP).
+
+The project is intended for educational and practical use and is implemented **without using high-level libraries** for computing eigenvalues and eigenvectors (except for result verification).
+
+---
+
+## 📌 Implemented Methods
+
+### 🔹 Eigenvalue and Eigenvector Methods
+
+| Method | File | Purpose |
+|--------|------|----------|
+| Danilevski Method | `Danilevski_Method.py` | Reduction of a matrix to Frobenius form, spectrum computation |
+| Krylov Method | `Krilov_Method.py` | Construction of the characteristic (annihilating) polynomial |
+| Jacobi Rotation Method | `Iterative_Method_Of_Rotations.py` | Finding all eigenvalues of a symmetric matrix |
+| Power Method | `Power_Method.py` | Finding the dominant (largest in magnitude) eigenvalue |
+
+---
+
+### 🔹 Methods for Solving Systems of Linear Equations
+
+| Method | File | Purpose |
+|--------|------|----------|
+| Gaussian Elimination | `Gaussian_Method.py` | Direct method for solving linear systems |
+| Left Sweep Method | `Left_Sweep_Method.py` | Solution of tridiagonal linear systems |
+| Jacobi Method (Iterative) | `Jacoby_Method.py` | Iterative method for solving linear systems |
+| Successive Over-Relaxation (SOR) | `SOR.py` | Iterative method for solving linear systems |
+
+---
+
 # Вычислительные методы алгебры
 
 Данный репозиторий содержит реализации основных численных методов линейной алгебры,
